@@ -71,4 +71,7 @@ A code repo for React Js Basics
     
     3. src
         This folder contains the source code of the project.
-        
+
+
+![image](https://user-images.githubusercontent.com/70527737/221357882-ede2c3fe-55a5-483e-85dc-8f6df19e709b.png)
+
