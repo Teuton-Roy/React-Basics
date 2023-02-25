@@ -52,3 +52,23 @@ A code repo for React Js Basics
         https://beta.reactjs.org/
 
 
+# After create React.Js Project 🤔?
+    After create React.Js Project, you can see the following files and folders.
+    1. node_modules (never edit this folder)
+    2. public (never edit this folder)
+    3. src (edit this folder)
+    4. .gitignore (never edit this file)
+    5. package-lock.json (never edit this file)
+    6. package.json (never edit this file)
+    7. README.md
+    image.png
+
+    1. node_modules
+        This folder contains all the dependencies of the project.
+    
+    2. public
+        This folder contains the index.html file.
+    
+    3. src
+        This folder contains the source code of the project.
+        
