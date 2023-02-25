@@ -25,4 +25,4 @@ A code repo for React Js Basics
     Any component is nothing but HTML, CSS, and JavaScript.  
     But in React.Js, combined the HTML and JavaScript into a single file.
 
-Screenshot 2023-02-25 173216.png
+![Screenshot 2023-02-25 173216](https://user-images.githubusercontent.com/70527737/221356072-0da571bf-845e-4d75-9bb1-ea7ff3dec6c2.png)
