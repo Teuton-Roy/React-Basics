@@ -19,3 +19,10 @@ A code repo for React Js Basics
 # What is React.Js 🤔?
     React is a UI Library which is used to build components for   Single-Page-Applications(SPA) and Multi-Page-Applications(MPA).  
 
+# What is React.Js Components 🤔?
+    React.Js Components is a reusable piece of code which is used to     build UI.
+
+    Any component is nothing but HTML, CSS, and JavaScript.  
+    But in React.Js, combined the HTML and JavaScript into a single file.
+
+Screenshot 2023-02-25 173216.png
