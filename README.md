@@ -26,3 +26,26 @@ A code repo for React Js Basics
     But in React.Js, combined the HTML and JavaScript into a single file.
 
 Screenshot 2023-02-25 173216.png
+
+# Setuo React.Js Project 🤔?
+    Dwonload Node.js from the following URL.
+        https://nodejs.org/en/download/
+    After that, install Node.js.
+
+    1. Create a folder for your project.
+    2. Open the folder in VS Code.
+    3. Open the terminal(ctrl+shift+`) and type the following command.
+        npx create-react-app my-app
+
+    4. After the installation, type the following command.
+        cd my-app
+
+    5. After that, type the following command.
+        npm start
+
+    6. After that, open the browser and type the following URL.
+        http://localhost:3000/
+    
+    For batter preference follow the URL.
+        https://beta.reactjs.org/
+
