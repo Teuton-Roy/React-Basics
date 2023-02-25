@@ -76,5 +76,7 @@ A code repo for React Js Basics
 ![image](https://user-images.githubusercontent.com/70527737/221357882-ede2c3fe-55a5-483e-85dc-8f6df19e709b.png)
 
 # After deleting unnecessary files from src and public..
-    ![Screenshot 2023-02-25 183122](https://user-images.githubusercontent.com/70527737/221358327-68fc6e16-2f5f-4406-8541-c72c59eb534a.png)
+
+![Screenshot 2023-02-25 183122](https://user-images.githubusercontent.com/70527737/221358349-b246b553-8b6a-4668-8b12-dbb4ed30ad08.png)
+
 
