@@ -154,7 +154,7 @@ function App() {
   return (  
     <div>  
       <div>  
-        <h1>React Basics</h1>  
+        React Basics   
       </div>  
     <Video></Video>  
     </div>  
@@ -168,7 +168,7 @@ export default App;
 function Video(){  
     return(  
         <div>  
-            <h1>Video</h1>  
+            Video  
         </div>  
     );  
 }  
