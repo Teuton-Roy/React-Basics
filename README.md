@@ -154,7 +154,7 @@ App.js
     return (  
         <div>  
         <div>  
-            React Basics   
+            <h1>React Basics</h1>  
         </div>  
         <Video></Video>  
         </div>  
@@ -168,7 +168,7 @@ video.js
     function Video(){  
         return(  
             <div>  
-                Video  
+                <h2>>Video</h2>  
             </div>  
         );  
     }  
