@@ -146,7 +146,7 @@ A code repo for React Js Basics
 
 Example:  
 
-    App.js  
+App.js  
 
     import Video from './components/video'  
 
@@ -161,10 +161,9 @@ Example:
         
     );  
     }  
-
     export default App;  
 
-    video.js  
+video.js  
 
     function Video(){  
         return(  
@@ -173,5 +172,4 @@ Example:
             </div>  
         );  
     }  
- 
-export default Video;  
+    export default Video;  
