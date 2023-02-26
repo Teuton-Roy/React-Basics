@@ -1,30 +1,11 @@
-import './App.css';
 
 function App() {
-
-  let name = "Teuton"
-  let className = "App-header"
-
   return (
     <div className="App">
-      <div className={className}>
-      {name}
-      <Demo></Demo>
-      </div>
-    </div>
-  );
-}
-
-function Demo() {
-  return (
-    <div className="App">
-      <div className="App-header">
-      Demo
-      </div>
+      <h1>React Basics</h1>
     </div>
   );
 }
 
 export default App;
-
 
