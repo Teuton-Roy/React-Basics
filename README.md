@@ -90,6 +90,7 @@ A code repo for React Js Basics
 
     import './App.css';  
 
+    //App is a parent component.//  
     function App() {  
     return (  
         <div className="App">  
@@ -101,6 +102,7 @@ A code repo for React Js Basics
     );  
     }  
 
+    //Demo is a child component.//  
     function Demo() {  
     return (  
         <div className="App">  
