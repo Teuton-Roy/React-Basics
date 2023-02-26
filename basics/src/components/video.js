@@ -7,4 +7,12 @@ function Video(){
     );
 }
 
-export default Video;
+function Thumb(){
+    return(
+        <div>
+            <h1>Thumb</h1>
+        </div>
+    );
+}
+
+export {Video, Thumb}; 

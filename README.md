@@ -136,7 +136,7 @@ A code repo for React Js Basics
 ![components](https://user-images.githubusercontent.com/70527737/221405149-2c574635-7f52-4248-8c61-8e86c76d7a57.png)  
 
 
-# How to create own componets and attach with App.js?
+# How to create own componets and attach/export with App.js?
     1. Create a folder called components.  
     2. Create a file called (whatever you want,Like, video.js).  
     3. Create a function called Video.  
@@ -173,3 +173,44 @@ video.js
         );  
     }  
     export default Video;  
+
+# Multi component export?
+
+video.js
+
+    function Video(){
+    return(
+        <div>
+            <h1>Video</h1>
+        </div>
+    );
+    }
+
+    function Thumb(){
+        return(
+            <div>
+                <h1>Thumb</h1>
+            </div>
+        );
+    }
+
+    export {Video, Thumb}; 
+
+App.js 
+
+    import {Video, Thumb} from './components/video'
+
+    function App() {
+    return (
+        <div>
+        <div>
+            <h1>React Basics</h1>
+        </div>
+        <Video></Video>
+        <Thumb></Thumb>
+        </div>
+        
+    );
+    }
+
+    export default App;

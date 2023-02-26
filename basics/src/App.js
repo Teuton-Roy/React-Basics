@@ -1,5 +1,5 @@
 
-import Video from './components/video'
+import {Video, Thumb} from './components/video'
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
         <h1>React Basics</h1>
       </div>
     <Video></Video>
+    <Thumb></Thumb>
     </div>
     
   );
