@@ -148,29 +148,30 @@ Example:
 
     App.js  
 
-import Video from './components/video'  
+    import Video from './components/video'  
 
-function App() {  
-  return (  
-    <div>  
-      <div>  
-        React Basics   
-      </div>  
-    <Video></Video>  
-    </div>  
-    
-  );  
-}  
+    function App() {  
+    return (  
+        <div>  
+        <div>  
+            React Basics   
+        </div>  
+        <Video></Video>  
+        </div>  
+        
+    );  
+    }  
 
-export default App;  
+    export default App;  
 
     video.js  
-function Video(){  
-    return(  
-        <div>  
-            Video  
-        </div>  
-    );  
-}  
+
+    function Video(){  
+        return(  
+            <div>  
+                Video  
+            </div>  
+        );  
+    }  
  
 export default Video;  
