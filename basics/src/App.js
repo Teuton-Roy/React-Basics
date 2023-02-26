@@ -1,10 +1,14 @@
 import './App.css';
 
 function App() {
+
+  let name = "Teuton"
+  let className = "App-header"
+
   return (
     <div className="App">
-      <div className="App-header">
-      Hello world!
+      <div className={className}>
+      {name}
       <Demo></Demo>
       </div>
     </div>

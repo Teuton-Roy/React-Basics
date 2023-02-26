@@ -114,3 +114,19 @@ A code repo for React Js Basics
     }  
 
     export default App;  
+
+
+# How to replece Text content and Attribute content with variable?  
+
+    let name = "Teuton"  
+    let className = "App-header"  
+
+    function App() {  
+        return (  
+            <div className="App">  
+            <div classname = {className}>  
+            {name}  
+            </div>  
+            </div>  
+        )  
+    }   
