@@ -80,3 +80,35 @@ A code repo for React Js Basics
 ![Screenshot 2023-02-25 183122](https://user-images.githubusercontent.com/70527737/221358349-b246b553-8b6a-4668-8b12-dbb4ed30ad08.png)
 
 
+# React Component Hierarchy 🤔?
+    React Component Hierarchy is a tree structure of React Components.  
+    React Component Hierarchy is a parent-child relationship Or  
+    React Component Hierarchy is a top-down relationship.  
+
+    For example:  
+    In App.js file, we have a parent component called App and child   component called Demo.  
+
+    import './App.css';  
+
+    function App() {  
+    return (  
+        <div className="App">  
+        <div className="App-header">  
+        Hello world!  
+        <Demo></Demo> //Call Demo component like a tag.//   
+        </div>  
+        </div>  
+    );  
+    }  
+
+    function Demo() {  
+    return (  
+        <div className="App">  
+        <div className="App-header">  
+        Demo  
+        </div>  
+        </div>   
+    );  
+    }  
+
+    export default App;  

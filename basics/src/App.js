@@ -5,6 +5,17 @@ function App() {
     <div className="App">
       <div className="App-header">
       Hello world!
+      <Demo></Demo>
+      </div>
+    </div>
+  );
+}
+
+function Demo() {
+  return (
+    <div className="App">
+      <div className="App-header">
+      Demo
       </div>
     </div>
   );
