@@ -138,7 +138,7 @@ A code repo for React Js Basics
 
 # How to create own componets and attach with App.js?
     1. Create a folder called components.  
-    2. Create a file called (whatever you wnat,   Like, video.js).  
+    2. Create a file called (whatever you want,Like, video.js).  
     3. Create a function called Video.  
     4. Export the function video.  
     5. Import the function video in App.js.  
