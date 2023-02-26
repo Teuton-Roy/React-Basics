@@ -133,4 +133,6 @@ A code repo for React Js Basics
 
 # What is components?
     It a funtion which return UI.
-![components](https://user-images.githubusercontent.com/70527737/221405149-2c574635-7f52-4248-8c61-8e86c76d7a57.png)
+![components](https://user-images.githubusercontent.com/70527737/221405149-2c574635-7f52-4248-8c61-8e86c76d7a57.png)  
+
+
