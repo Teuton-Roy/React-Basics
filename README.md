@@ -130,3 +130,6 @@ A code repo for React Js Basics
             </div>  
         )  
     }   
+
+# What is components?
+    It a funtion which return UI.
