@@ -8,9 +8,9 @@ function App() {
       <div className="App">
         <h1>Hello</h1>
       </div>
-    <Video title="random generator photos_1"></Video>
-    <br />
-    <Video title="random generator photos_2"></Video>
+    <Video bgColor='red' title="random generator photos_1"></Video>
+    <br/>
+    <Video bgColor='green' title="random generator photos_2"></Video>
     </div>
     
   );
