@@ -238,4 +238,9 @@ App.js
         <>  
                 //this is like parent object.  
         </>  
-    ]  
+    ]    
+
+# What is props in React.Js?
+    Props is a short form of properties.  
+    Props is a read-only data.  
+    Props is a immutable data.  

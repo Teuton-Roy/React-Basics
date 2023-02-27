@@ -1,7 +1,7 @@
 import './video.css';
 
-function Video(){
-    let topic = "Naruto's photo"
+function Video({title}){
+    // let topic = "Naruto's photo"
     let url = "http://placeimg.com/190/190/any"
     // let bg = "dark"
     return(
@@ -9,7 +9,7 @@ function Video(){
             {/* <h1>Video</h1> */}
             <img src={url} alt="" />
             <div className = 'dark'>
-                {topic}
+                {title}
             </div>
         </>
     );
