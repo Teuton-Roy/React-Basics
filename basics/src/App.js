@@ -5,7 +5,7 @@ function App() {
   return (
     <div>
       <div className="App">
-        <h1>React Basics</h1>
+        <h1>Hello</h1>
       </div>
     <Video></Video>
     </div>

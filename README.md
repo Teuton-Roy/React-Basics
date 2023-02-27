@@ -214,3 +214,28 @@ App.js
     }
 
     export default App;
+
+# Fragment?
+
+    [<> </>]  
+        function Video(){  
+        return(  
+            <>  
+                <img src="https://cdn.pixabay.com/photo/2022/05/17/21/41/naruto-7203817__340.jpg" alt="" /> //Elements//  
+
+                <div>  
+                    naruto's photo  
+                </div> //Emenets//   
+            </>  
+        );  
+    }  
+
+    export default Video;  
+
+    but js object is like parent object.  
+    Two individual object is not possible.  
+    [  
+        <>  
+                //this is like parent object.  
+        </>  
+    ]  
