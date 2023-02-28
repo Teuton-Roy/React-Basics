@@ -20,7 +20,7 @@ function Video({title, channel, views, time}){
         <>
         <div className="container">
             <div className="pic">
-                <img src="http://placeimg.com/160/100/any" alt="img" />
+                <img src="http://placeimg.com/180/100/any" alt="img" />
             </div>
             <div className="title">
                 {title}
