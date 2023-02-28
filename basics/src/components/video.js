@@ -15,7 +15,7 @@ import './video.css';
 //     );
 // }
 
-function Video({title, channel, views, time, profileImgSrc}){
+function Video({title, channel, views, time, profileImgSrc, subscrribers}){
     return(
         <>
         <div className="container">
@@ -26,8 +26,11 @@ function Video({title, channel, views, time, profileImgSrc}){
                 {title}
             </div>
             <div className="channel">
-            <img src={profileImgSrc} alt="" srcset="" />{channel}
+            <img src={profileImgSrc} alt="" srcset="" />{channel} <br/>{subscrribers}
             </div>
+            {/* <div className="subscribers">
+                {subscrribers}
+            </div> */}
             <div className="view">
                 {views} views <span>.</span> {time}
             </div>
