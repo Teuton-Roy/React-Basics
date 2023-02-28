@@ -9,6 +9,12 @@
     width:100%;
 }
 
+profile-img .img{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+}
+
 .title{
     font-weight: bold;
     margin-bottom: 1em;
