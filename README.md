@@ -251,3 +251,48 @@ App.js
 ![recap-3](https://user-images.githubusercontent.com/70527737/222655407-0c4aa03d-e06e-4d81-8755-04f4290d60e5.png)
 ![recap-4](https://user-images.githubusercontent.com/70527737/222655447-436ad99f-cefc-4d0a-96e1-e096a81d8b66.png)
 ![recap-5](https://user-images.githubusercontent.com/70527737/222655510-134bbae1-2831-4d79-9527-f09b2dd1e1cf.png)
+
+# can we set default props?
+        App.js
+
+        <Video 
+        subscrribers="105K subscrribers" 
+        profileImgSrc="image link" 
+        <!-- channel="teuton.h"  -->
+        views="100K" 
+        time="3 weeks ago" 
+        title="Node.Js bootcamp">
+        </Video>
+        
+        Let's suppose we don't want to set channel name. so we can set default props.
+
+            video.js
+
+            function Video({title, channel='teuton.h', views, time, profileImgSrc, subscrribers}){
+        return(
+            <>
+            <div className="container">
+                <div className="pic">
+                    <img src="http://placeimg.com/180/100/any" alt="img" />
+                </div>
+                <div className="title">
+                    {title}
+                </div>
+                <div className="channel">
+                <img src={profileImgSrc} alt="" srcset="" />{channel} <br/>{subscrribers}
+                </div>
+                {/* <div className="subscribers">
+                    {subscrribers}
+                </div> */}
+                <div className="view">
+                    {views} views <span>.</span> {time}
+                </div>
+            </div>
+            </>
+        );
+    }
+
+    export default Video; 
+
+    channel='teuton.h' //default props//
+    so if we don't set channel name, it will show teuton.h as default.
