@@ -36,7 +36,7 @@ function App() {
         views="25K" 
         time="1 weeks ago" 
         title="MongoDB bootcamp"
-        verified = {false}
+        verified = {true}
         >
 
         </Video>
