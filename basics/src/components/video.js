@@ -41,11 +41,14 @@ function Video({title, channel, views, time, profileImgSrc, subscrribers, verifi
             </div>
             
             {/* Another methods*/}
-            {verified ? <div className="channel">
+            {verified ? 
+            <div className="channel">
                 <img src={profileImgSrc} alt="" srcset="" />{channel}✅ <br/>{subscrribers}
-             </div> : <div className="channel">
+             </div> : 
+             <div className="channel">
                 <img src={profileImgSrc} alt="" srcset="" />{channel} <br/>{subscrribers}
-         </div> }
+            </div> 
+            }
 
 
 
