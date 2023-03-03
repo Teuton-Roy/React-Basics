@@ -15,7 +15,20 @@ import './video.css';
 //     );
 // }
 
-function Video({title, channel, views, time, profileImgSrc, subscrribers}){
+function Video({title, channel, views, time, profileImgSrc, subscrribers, verified}){
+
+    let channelJSX
+    if(verified){
+       channelJSX= <div className="channel">
+        <img src={profileImgSrc} alt="" srcset="" />{channel}✅ <br/>{subscrribers}
+        </div>
+    }else{
+        channelJSX = <div className="channel">
+        <img src={profileImgSrc} alt="" srcset="" />{channel} <br/>{subscrribers}
+        </div>
+    }
+
+
     return(
         <>
         <div className="container">
@@ -25,9 +38,7 @@ function Video({title, channel, views, time, profileImgSrc, subscrribers}){
             <div className="title">
                 {title}
             </div>
-            <div className="channel">
-            <img src={profileImgSrc} alt="" srcset="" />{channel}✅ <br/>{subscrribers}
-            </div>
+            {channelJSX}
             {/* <div className="subscribers">
                 {subscrribers}
             </div> */}
