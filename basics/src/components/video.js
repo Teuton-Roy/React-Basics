@@ -26,7 +26,7 @@ function Video({title, channel, views, time, profileImgSrc, subscrribers}){
                 {title}
             </div>
             <div className="channel">
-            <img src={profileImgSrc} alt="" srcset="" />{channel} <br/>{subscrribers}
+            <img src={profileImgSrc} alt="" srcset="" />{channel}✅ <br/>{subscrribers}
             </div>
             {/* <div className="subscribers">
                 {subscrribers}
