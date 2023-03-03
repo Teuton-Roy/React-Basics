@@ -244,3 +244,10 @@ App.js
     Props is a short form of properties.  
     Props is a read-only data.  
     Props is a immutable data.  
+    
+# Some Rule and Regulations!!
+![recap-1](https://user-images.githubusercontent.com/70527737/222655341-762ecb31-1237-41b0-86b5-a145dbd07a07.png)
+![recap-2](https://user-images.githubusercontent.com/70527737/222655377-0992f436-3d28-43a3-8b71-78d598959ffe.png)
+![recap-3](https://user-images.githubusercontent.com/70527737/222655407-0c4aa03d-e06e-4d81-8755-04f4290d60e5.png)
+![recap-4](https://user-images.githubusercontent.com/70527737/222655447-436ad99f-cefc-4d0a-96e1-e096a81d8b66.png)
+![recap-5](https://user-images.githubusercontent.com/70527737/222655510-134bbae1-2831-4d79-9527-f09b2dd1e1cf.png)
