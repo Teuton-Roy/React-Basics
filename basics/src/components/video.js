@@ -22,7 +22,7 @@ function Video({title, channel, views, time, profileImgSrc, subscrribers, verifi
     // let channelJSX
     // if(verified){
     //    channelJSX= <div className="channel">
-    //     <img src={profileImgSrc} alt="" srcset="" />{channel}✅ <br/>{subscrribers}
+    //     <img src={profileImgSrc} alt="" srcset="" />{channel} <br/>{subscrribers}
     //     </div>
     // }else{
     //     channelJSX = <div className="channel">
@@ -49,7 +49,13 @@ function Video({title, channel, views, time, profileImgSrc, subscrribers, verifi
                 <img src={profileImgSrc} alt="" srcset="" />{channel} <br/>{subscrribers}
             </div> 
             }
+            
 
+            {/* <div className="channel">
+                <img src={profileImgSrc} alt="" srcset="" />{channel} {verified && '✅'} <br/>{subscrribers}
+             </div> 
+             {verified && '✅'}: using this we can also conditionally randering
+             */}
 
 
 
