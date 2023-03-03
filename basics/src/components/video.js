@@ -18,7 +18,7 @@ import './video.css';
 function Video({title, channel, views, time, profileImgSrc, subscrribers, verified}){
 
 
-    //One Method//
+    //One Method: using if-else{}//
     // let channelJSX
     // if(verified){
     //    channelJSX= <div className="channel">
@@ -40,7 +40,7 @@ function Video({title, channel, views, time, profileImgSrc, subscrribers, verifi
                 {title}
             </div>
             
-            {/* Another methods*/}
+            {/* Another methods: using ternarry ?:}*/}
             {verified ? 
             <div className="channel">
                 <img src={profileImgSrc} alt="" srcset="" />{channel}✅ <br/>{subscrribers}
