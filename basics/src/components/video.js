@@ -17,17 +17,18 @@ import './video.css';
 
 function Video({title, channel, views, time, profileImgSrc, subscrribers, verified}){
 
-    let channelJSX
-    if(verified){
-       channelJSX= <div className="channel">
-        <img src={profileImgSrc} alt="" srcset="" />{channel}✅ <br/>{subscrribers}
-        </div>
-    }else{
-        channelJSX = <div className="channel">
-        <img src={profileImgSrc} alt="" srcset="" />{channel} <br/>{subscrribers}
-        </div>
-    }
 
+    //One Method//
+    // let channelJSX
+    // if(verified){
+    //    channelJSX= <div className="channel">
+    //     <img src={profileImgSrc} alt="" srcset="" />{channel}✅ <br/>{subscrribers}
+    //     </div>
+    // }else{
+    //     channelJSX = <div className="channel">
+    //     <img src={profileImgSrc} alt="" srcset="" />{channel} <br/>{subscrribers}
+    //     </div>
+    // }
 
     return(
         <>
@@ -38,7 +39,17 @@ function Video({title, channel, views, time, profileImgSrc, subscrribers, verifi
             <div className="title">
                 {title}
             </div>
-            {channelJSX}
+            
+            {/* Another methods*/}
+            {verified ? <div className="channel">
+                <img src={profileImgSrc} alt="" srcset="" />{channel}✅ <br/>{subscrribers}
+             </div> : <div className="channel">
+                <img src={profileImgSrc} alt="" srcset="" />{channel} <br/>{subscrribers}
+         </div> }
+
+
+
+
             {/* <div className="subscribers">
                 {subscrribers}
             </div> */}
