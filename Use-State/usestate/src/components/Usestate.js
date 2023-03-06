@@ -8,6 +8,8 @@ const Usestate = () => {
   const [count, setCount] = useState(1)
 
   function decrementCount() {
+    // setCount(count - 1)
+
     setCount(prevCount => prevCount - 1)
   }
 
