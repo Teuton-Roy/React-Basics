@@ -303,6 +303,9 @@ App.js
 
     ** Only work in function components.  
 
+# React Hook list:
+    useState   useEffect   useContext   useReducer   useCallback   useMemo   useRef   useImperativeHandle   useLayoutEffect   useDebugValue.
+
 # Basic Built-in hooks:  
     .Return a stateful value, and a function to update it - useState()  
 
