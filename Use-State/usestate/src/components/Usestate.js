@@ -4,9 +4,14 @@ import React from 'react'
 
 const Usestate = () => {
   return (
-    <div>
-      
+    <div className="container">
+      <div className='counter'>
+        <button>-</button>
+        <span>0</span>
+        <button>+</button>
+      </div>
     </div>
+    
   )
 }
 
