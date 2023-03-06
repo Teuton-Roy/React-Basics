@@ -316,5 +316,13 @@ App.js
         import React, { useState } from 'react';  
 
         function Example(){  
-            //  
+            // useState always returns an array with two values.  
+            // The first value is the current state, and the second is a function that lets you update it.  
+
+            const [count, setCount] = useState(0);  
+
+            return(  
+
+            );  
         }    
+
