@@ -296,3 +296,22 @@ App.js
 
     channel='teuton.h' //default props//
     so if we don't set channel name, it will show teuton.h as default.
+
+# What is React Hooks?
+    React hooks are functions that let us into the React state and  
+    lifecycle features from function components.  
+
+    ** Only work in function components.  
+
+# Basic Built-in hooks:  
+    .Return a stateful value, and a function to update it - useState()  
+
+    .Lets you perform side effects in function components - useEffect()  
+
+    code like this:  
+
+        import React, { useState } from 'react';  
+
+        function Example(){  
+            //  
+        }    
