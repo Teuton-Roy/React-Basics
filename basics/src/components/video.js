@@ -15,7 +15,7 @@ import './video.css';
 //     );
 // }
 
-function Video({title,  channel, views, time, profileImgSrc, subscrribers, verified}){
+function Video({title, id, channel, views, time, profileImgSrc, subscrribers, verified}){
 
 
     //One Method: using if-else{}//
@@ -34,7 +34,7 @@ function Video({title,  channel, views, time, profileImgSrc, subscrribers, verif
         <>
         <div className="container">
             <div className="pic">
-                <img src="https://picsum.photos/id/5/160/90" alt="img" />
+                <img src={`https://picsum.photos/${id}/5/160/90`} alt="img" />
             </div>
             <div className="title">
                 {title}
