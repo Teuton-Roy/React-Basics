@@ -15,7 +15,7 @@ import './video.css';
 //     );
 // }
 
-function Video({title, channel, views, time, profileImgSrc, subscrribers, verified}){
+function Video({title,  channel, views, time, profileImgSrc, subscrribers, verified}){
 
 
     //One Method: using if-else{}//
