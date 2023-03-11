@@ -69,5 +69,4 @@ function Video({title, channel, views, time, profileImgSrc, subscrribers, verifi
         </>
     );
 }
-
 export default Video;  
