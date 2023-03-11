@@ -55,6 +55,7 @@ function App() {
         {
           videos.map(video=>
             <Video 
+            key={video.id}
             subscrribers={video.subscribers}
             profileImgSrc={video.profileImgSrc}
             channel={video.channel}
