@@ -62,6 +62,7 @@ function App() {
             time={video.time}
             title={video.title}
             verified = {video.verified}
+            id = {video.id}
             >
             </Video>
           )
