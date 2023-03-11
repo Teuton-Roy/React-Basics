@@ -3,6 +3,38 @@ import Video from './components/video'
 import './App.css';
 
 function App() {
+
+  let videos = [{
+    title: 'React.Js bootcamp',
+    views: '1.4M views',
+    time: '3 years age',
+    channel: 'teuton.h',
+    verified: false,
+  },
+  {
+    title: 'Node.Js bootcamp',
+    views: '110k views',
+    time: '6 months age',
+    channel: 'teuton.h',
+    verified: false,
+  },
+  {
+    title: 'MongoDB bootcamp',
+    views: '22.7k views',
+    time: '1 week age',
+    channel: 'teuton.h',
+    verified: false,
+  },
+  {
+    title: 'Java bootcamp',
+    views: '1.4M views',
+    time: '3 years age',
+    channel: 'teuton.h',
+    verified: true,
+  }, 
+  ];
+
+
   return (
     <div className='App'>
       <div>
