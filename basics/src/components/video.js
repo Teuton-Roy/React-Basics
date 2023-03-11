@@ -34,7 +34,7 @@ function Video({title, id, channel, views, time, profileImgSrc, subscrribers, ve
         <>
         <div className="container">
             <div className="pic">
-                <img src={`https://picsum.photos/${id}/5/160/90`} alt="img" />
+                <img src={`https://picsum.photos/id/${id}/160/90`} alt="img" />
             </div>
             <div className="title">
                 {title}
