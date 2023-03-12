@@ -326,3 +326,7 @@ App.js
             );  
         }    
 
+# What is events in React.Js?
+    An event is an action that could be triggered as a result of the user action or system generated event.   
+    For example, a mouse click,   loading of a web page, pressing a key, window resizes, and other interactions are called events.  
+
