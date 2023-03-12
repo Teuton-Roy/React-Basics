@@ -25,7 +25,7 @@ function App() {
             </Video>
           )
         }
-        <div>
+        <div style={{clear: 'both'}}>
           <PlayButton></PlayButton>
         </div>
       </div>
@@ -33,5 +33,5 @@ function App() {
 
   );
 }
-export default App;
 
+export default App;
