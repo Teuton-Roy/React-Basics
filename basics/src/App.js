@@ -25,7 +25,9 @@ function App() {
             </Video>
           )
         }
-        <PlayButton></PlayButton>
+        <div>
+          <PlayButton></PlayButton>
+        </div>
       </div>
     </div>
 
