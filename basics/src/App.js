@@ -26,8 +26,8 @@ function App() {
           )
         }
         <div style={{clear: 'both'}}>
-          <PlayButton name='Play' massage='play-bitch'></PlayButton>
-          <PlayButton name='Pause' massage='pause-bitch'></PlayButton>
+          <PlayButton massage='play-bitch'>Play</PlayButton>
+          <PlayButton massage='pause-bitch'>Pause</PlayButton>
         </div>
       </div>
     </div>
