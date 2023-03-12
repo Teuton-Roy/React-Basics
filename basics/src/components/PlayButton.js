@@ -2,13 +2,13 @@ import './PlayButton.css'
 
 import React from 'react'
 
-const PlayButton = () => {
+const PlayButton = ({massage, name}) => {
 
     function handelClick(){
-        console.log('play')
+        console.log(massage)
     }
     return (
-        <button onClick={handelClick}>Play</button>
+        <button onClick={handelClick}>{name}</button>
     )
 }
 
