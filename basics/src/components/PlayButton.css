@@ -5,7 +5,6 @@ button{
     border-radius: 1em;
     color: white;
     cursor: pointer;
-    width: 100%;
 }
 
 button:hover{
