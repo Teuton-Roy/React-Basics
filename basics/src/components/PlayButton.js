@@ -8,7 +8,6 @@ const PlayButton = ({massage, children}) => {
         console.log(massage)
     }
 
-     
     return (
         <button onClick={handelClick}>{children}</button>
     )
