@@ -7,11 +7,9 @@ const PlayButton = () => {
     function handelClick(){
         console.log('play')
     }
-
-
-  return (
-    <button onClick={handelClick}>Play</button>
-  )
+    return (
+        <button onClick={handelClick}>Play</button>
+    )
 }
 
 export default PlayButton
