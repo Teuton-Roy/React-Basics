@@ -4,9 +4,7 @@ import React from 'react'
 
 const PlayButton = () => {
   return (
-    <div>
-      
-    </div>
+    <button onClick={console.log('play')}>Play</button>
   )
 }
 

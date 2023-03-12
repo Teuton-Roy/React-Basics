@@ -2,6 +2,7 @@
 import Video from './components/video'
 import './App.css';
 import videos from './components/Data'
+import PlayButton from './components/PlayButton';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
             </Video>
           )
         }
+        <PlayButton></PlayButton>
       </div>
     </div>
 
