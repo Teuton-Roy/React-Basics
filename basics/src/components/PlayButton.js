@@ -3,8 +3,14 @@ import './PlayButton.css'
 import React from 'react'
 
 const PlayButton = () => {
+
+    function handelClick(){
+        console.log('play')
+    }
+
+
   return (
-    <button onClick={()=>console.log('play')}>Play</button>
+    <button onClick={handelClick}>Play</button>
   )
 }
 
