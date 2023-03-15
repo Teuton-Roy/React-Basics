@@ -2,7 +2,7 @@ import './PlayButton.css'
 
 import React from 'react'
 
-const PlayButton = ({massage, children, onClick}) => {
+const PlayButton = ({ children, onClick}) => {
 
     function handelClick(){
         onClick()
