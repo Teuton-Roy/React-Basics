@@ -23,7 +23,11 @@ function App() {
             id = {video.id}
             >
 
-            <PlayButton  onPlay={() => console.log('Play-bitch')} onPause={() => alert('Pause-bitch')}>Play</PlayButton>
+            <PlayButton  
+            onPlay={() => console.log('Play-bitch')} 
+            onPause={() => alert('Pause-bitch')}>
+              {video.title}
+            </PlayButton>
 
             </Video>
           )
