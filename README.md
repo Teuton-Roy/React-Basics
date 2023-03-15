@@ -338,4 +338,13 @@ App.js
     For example, when a user clicks on a button, the onClick event is   triggered and the event handler is called.  
 
 # What is event Bubble in React.Js?
-    Event bubbling is a mechanism in which an event is triggered on the innermost element and then propagated to outer elements one by one.  
+    Event bubbling is a mechanism in which an event is triggered on the innermost element and then propagated to outer elements one by one.   
+
+    Stop using event bubbling:   
+    e.stopPropagation()   
+    Or, simply say event object.  
+
+
+# What is event object in React.Js?
+    An event object is an object that contains information about the event that has occurred.   
+    For example, when a user clicks on a button, the onClick event is triggered and the event object is passed as a parameter to the event handler.  
