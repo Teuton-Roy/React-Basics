@@ -331,3 +331,11 @@ App.js
     For example, a mouse click,   loading of a web page, pressing a key, window resizes, and other interactions are called events.  
 
 ![Screenshot 2023-03-12 180254](https://user-images.githubusercontent.com/70527737/224545015-a0051615-2566-42f8-8ac1-c6d583c5be6c.png)
+
+
+# What is event handler in React.Js?
+    An event handler is a function that is called when a specific event is triggered.    
+    For example, when a user clicks on a button, the onClick event is   triggered and the event handler is called.  
+
+# What is event Bubble in React.Js?
+    Event bubbling is a mechanism in which an event is triggered on the innermost element and then propagated to outer elements one by one.  
