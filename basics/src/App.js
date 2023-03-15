@@ -26,8 +26,8 @@ function App() {
           )
         }
         <div style={{clear: 'both'}}>
-          <PlayButton massage='play' onClick={() => console.log('Play-bitch')}>Play</PlayButton>
-          <PlayButton massage='pause'onClick={() => alert('Pause-bitch')}>Pause</PlayButton>
+          <PlayButton  onClick={() => console.log('Play-bitch')}>Play</PlayButton>
+          <PlayButton  onClick={() => alert('Pause-bitch')}>Pause</PlayButton>
         </div>
       </div>
     </div>
