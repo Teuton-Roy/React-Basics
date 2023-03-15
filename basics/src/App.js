@@ -24,8 +24,8 @@ function App() {
             >
 
             <PlayButton  
-            onPlay={() => console.log('Play-bitch')} 
-            onPause={() => alert('Pause-bitch')}>
+            onPlay={() => console.log('Playing-bitch', video.title)} 
+            onPause={() => alert('Paused-bitch', video.title)}>
               {video.title}
             </PlayButton>
 
