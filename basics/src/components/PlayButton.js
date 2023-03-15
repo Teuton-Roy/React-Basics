@@ -4,7 +4,7 @@ import React from 'react'
 
 const PlayButton = ({ children, onPause, onPlay}) => {
 
-    let playing = false
+    let playing = false //don't use this approch//
     function handelClick(){
         
         if(playing) onPause()
