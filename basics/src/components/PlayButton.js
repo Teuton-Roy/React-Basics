@@ -14,7 +14,7 @@ const PlayButton = ({ children, onPause, onPlay}) => {
     }
 
     return (
-        <button onClick={handelClick}>{children}</button>
+        <button onClick={handelClick}>{children}: {playing ? '>' : '||'}</button>
     )
 }
 
