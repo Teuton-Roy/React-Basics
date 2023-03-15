@@ -15,7 +15,7 @@ import './video.css';
 //     );
 // }
 
-function Video({title, id, channel, views, time, profileImgSrc, subscrribers, verified}){
+function Video({title, id, channel, views, time, profileImgSrc, subscrribers, verified,children}){
 
 
     //One Method: using if-else{}//
@@ -64,6 +64,9 @@ function Video({title, id, channel, views, time, profileImgSrc, subscrribers, ve
             </div> */}
             <div className="view">
                 {views} views <span>.</span> {time}
+            </div>
+            <div>
+                {children}
             </div>
         </div>
         </>

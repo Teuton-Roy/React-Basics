@@ -22,11 +22,14 @@ function App() {
             verified = {video.verified}
             id = {video.id}
             >
+
+            <PlayButton  onPlay={() => console.log('Play-bitch')} onPause={() => alert('Pause-bitch')}>Play</PlayButton>
+
             </Video>
           )
         }
         <div style={{clear: 'both'}}>
-          <PlayButton  onPlay={() => console.log('Play-bitch')} onPause={() => alert('Pause-bitch')}>Play</PlayButton>
+          {/* <PlayButton  onPlay={() => console.log('Play-bitch')} onPause={() => alert('Pause-bitch')}>Play</PlayButton> */}
           {/* <PlayButton  onPause={() => alert('Pause-bitch')}>Pause</PlayButton> */}
         </div>
       </div>
