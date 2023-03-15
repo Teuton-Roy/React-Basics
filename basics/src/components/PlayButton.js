@@ -2,10 +2,15 @@ import './PlayButton.css'
 
 import React from 'react'
 
-const PlayButton = ({ children, onClick}) => {
+const PlayButton = ({ children, onPause, onPlay}) => {
 
+    let playing = false
     function handelClick(){
-        onClick()
+        
+        if(playing) onPause()
+        else onPlay()
+
+        playing =!playing;
     }
 
     return (

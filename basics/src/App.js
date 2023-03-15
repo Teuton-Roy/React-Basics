@@ -26,8 +26,8 @@ function App() {
           )
         }
         <div style={{clear: 'both'}}>
-          <PlayButton  onClick={() => console.log('Play-bitch')}>Play</PlayButton>
-          <PlayButton  onClick={() => alert('Pause-bitch')}>Pause</PlayButton>
+          <PlayButton  onPlay={() => console.log('Play-bitch')} onPause={() => alert('Pause-bitch')}>Play</PlayButton>
+          {/* <PlayButton  onPause={() => alert('Pause-bitch')}>Pause</PlayButton> */}
         </div>
       </div>
     </div>
