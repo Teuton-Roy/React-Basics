@@ -6,7 +6,9 @@ const PlayButton = ({ children, onPause, onPlay}) => {
 
     let playing = false //don't use this approch//
     function handelClick(e){
-        
+        console.log(e);
+        e.stopPropagation()
+
         console.log(e);
         if(playing) onPause()
         else onPlay()

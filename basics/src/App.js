@@ -10,7 +10,7 @@ function App() {
     <div className='App'>
       <div>
         {
-          videos.map(video=>
+          videos.map((video)=>
             <Video 
             key={video.id}
             subscrribers={video.subscribers}
