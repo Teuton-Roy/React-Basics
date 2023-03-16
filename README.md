@@ -341,8 +341,10 @@ App.js
     Event bubbling is a mechanism in which an event is triggered on the innermost element and then propagated to outer elements one by one.   
 
     Stop using event bubbling:   
-    e.stopPropagation()   
+    1. e.stopPropagation()   
     Or, simply say event object.  
+
+    2. e.preventDefault()  
 
 
 # What is event object in React.Js?
