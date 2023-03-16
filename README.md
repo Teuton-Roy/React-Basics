@@ -359,3 +359,4 @@ App.js
     A stateful component is a component that has a state.   
     For example, a button component is a stateful component because it   has a state that determines whether the button is clicked or not.  
 
+![Screenshot 2023-03-16 160213](https://user-images.githubusercontent.com/70527737/225591427-fa66f624-e736-411d-ad92-b9aabe715784.png)
