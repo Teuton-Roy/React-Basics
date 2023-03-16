@@ -3,6 +3,7 @@ import Video from './components/video'
 import './App.css';
 import videos from './components/Data'
 import PlayButton from './components/PlayButton';
+import Counter from './components/Counter';
 
 function App() {
 
@@ -37,6 +38,9 @@ function App() {
           {/* <PlayButton  onPause={() => alert('Pause-bitch')}>Pause</PlayButton> */}
         </div>
       </div>
+
+      <Counter></Counter>
+
     </div>
 
   );
