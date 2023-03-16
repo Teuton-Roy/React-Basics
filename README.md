@@ -347,6 +347,15 @@ App.js
     2. e.preventDefault()  
 
 
-# What is event object in React.Js?
+# What is event object in React.Js?  
     An event object is an object that contains information about the event that has occurred.   
     For example, when a user clicks on a button, the onClick event is triggered and the event object is passed as a parameter to the event handler.  
+
+# What is state in React.Js?  
+    State is a data that is used to determine the behavior of a component.     
+    For example, if a user clicks on a button, the state of the button is changed.  
+
+# What is stateful component in React.Js?  
+    A stateful component is a component that has a state.   
+    For example, a button component is a stateful component because it   has a state that determines whether the button is clicked or not.  
+
